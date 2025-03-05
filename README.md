@@ -19,3 +19,4 @@ aws lambda list-functions
 # list IAM users
 echo "print IAM users"
 aws iam list-users
+
