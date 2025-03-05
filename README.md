@@ -5,8 +5,8 @@
 # this script reports aws resource usage #
 ##########################################
 set -x
-set
-set
+set -e
+set -o
 # list s3 buckets
 echo"print s3 buckets"
 aws s3 ls
